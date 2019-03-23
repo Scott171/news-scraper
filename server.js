@@ -2,7 +2,7 @@ const express = require("express");
 const exphbs = require("express-handlebars")
 const mongoose = require("mongoose");
 
-const PORT = process.env.PORT || 3100;
+const PORT = process.env.PORT || 3110;
 
 const app = express();
 

@@ -1,6 +1,5 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-
 const db = require("../models");
 
 module.exports = function(app){
@@ -42,7 +41,6 @@ module.exports = function(app){
     }).then(function(data) {
       res.json(data);
     }).catch(function(err) {
-      // console.log(err)
       res.status(500).end();
     });
   });

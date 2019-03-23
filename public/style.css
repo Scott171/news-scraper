@@ -1,5 +1,5 @@
 body {
-    background: #ccc;
+    background-image: url("images/popcorn.jpg");
 }
 .card-button:hover {
     text-decoration: underline;
@@ -17,4 +17,11 @@ body {
 }
 .notes-save:hover {
     text-decoration:underline;
+}
+.brand-logo {
+    margin-left:10px
+}
+card {
+    margin-left: 33%
+
 }

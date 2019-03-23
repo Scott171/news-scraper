@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    $('.modal').modal();
+    
 
     $(document).on('click', "#save-article", function(){
         let id = $(this).attr("data-id");
@@ -62,6 +62,7 @@ $(document).ready(function(){
         })
     })
 
+    
     $(document).on('click', '.notes-save', function()  {
         let id = $(this).attr("data-id");
         $.ajax({
